@@ -22,6 +22,7 @@ public class Disparar : MonoBehaviour {
 			smoke.SetActive(true);
 			int random = Random.Range(0, ShootSounds.Length);
 			audioSource.PlayOneShot(ShootSounds[random]);
+			//Debug.Break();
 		}
 
 		if (contador > delayMuzzle) {
