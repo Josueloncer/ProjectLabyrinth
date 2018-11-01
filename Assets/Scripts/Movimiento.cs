@@ -7,8 +7,8 @@ public class Movimiento : MonoBehaviour {
     CharacterController charControl;
     public float velocidad;
     public Animation anim;
-    private bool left;
-    private bool right;
+    //private bool left;
+   // private bool right;
 
 
     // Use this for initialization
@@ -16,8 +16,8 @@ public class Movimiento : MonoBehaviour {
  
     void Start()
     {
-        left = true;
-        right = false;
+       // left = true;
+        //right = false;
     }
 
 

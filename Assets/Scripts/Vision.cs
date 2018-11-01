@@ -1,7 +1,6 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEngine.AI;
+using UnityEngine;
 
 public class Vision : MonoBehaviour
 {
@@ -13,9 +12,9 @@ public class Vision : MonoBehaviour
     bool follow = false;
     //
 
-    [SerializeField]
+    /*[SerializeField]
     [TextArea(5, 20)]
-    private string Descripcion = " ";
+    private string Descripcion = " ";*/
 
 
     public float Radio = 10;

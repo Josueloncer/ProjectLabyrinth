@@ -9,7 +9,7 @@ public class Bala : MonoBehaviour {
     public static int numeroBalas;
     public Transform splash;
 
-    void OnCollisioEnter(Collision col)
+    void OnCollisionEnter(Collision col)
     {
         /*
             ContactPoint[] contact = col.contacts;
@@ -19,6 +19,7 @@ public class Bala : MonoBehaviour {
         */
             Debug.Log("Collision");
     }
+
     // Use this for initialization
     void Start ()
     {
