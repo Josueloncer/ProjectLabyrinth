@@ -3457,7 +3457,7 @@ Transform:
   m_LocalScale: {x: 8.384329, y: 8.384327, z: 8.384329}
   m_Children: []
   m_Father: {fileID: 1496545912}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!108 &709668508
 Light:
@@ -5827,133 +5827,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4206339931602810, guid: 9bbb3f7ff024e0f408dfd4482dbfdcce,
     type: 2}
   m_PrefabInternal: {fileID: 1184648725}
---- !u!1 &1146914902
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1840929527188780, guid: 7b3ba67b83955d04c8a655519d664849,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1146914903}
-  - component: {fileID: 1146914904}
-  m_Layer: 10
-  m_Name: SonidoDisparo2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1146914903
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4502712753787412, guid: 7b3ba67b83955d04c8a655519d664849,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1146914902}
-  m_LocalRotation: {x: -0.00000005760116, y: 0.7071068, z: -0.00000005760116, w: 0.7071068}
-  m_LocalPosition: {x: 0.78455037, y: 3.746719, z: 2.0130079}
-  m_LocalScale: {x: 1.756242, y: 1.9643621, z: 4.7567577}
-  m_Children: []
-  m_Father: {fileID: 1496545912}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &1146914904
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 82520136801163860, guid: 7b3ba67b83955d04c8a655519d664849,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1146914902}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 33799382a70fb3445a76398ef5490901, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1001 &1159919249
 Prefab:
   m_ObjectHideFlags: 0
@@ -7818,7 +7691,6 @@ Transform:
   - {fileID: 1929747079}
   - {fileID: 1321169237}
   - {fileID: 1348697712}
-  - {fileID: 1146914903}
   - {fileID: 709668507}
   m_Father: {fileID: 1299246271}
   m_RootOrder: 0
@@ -10050,8 +9922,10 @@ MonoBehaviour:
   bala: {fileID: 1400031900614102, guid: db53c33f13b1b5341ada2fe8e4103141, type: 2}
   delayTime: 2
   muzzleflash: {fileID: 1321169236}
+  ShootSounds:
+  - {fileID: 8300000, guid: 33799382a70fb3445a76398ef5490901, type: 3}
+  - {fileID: 8300000, guid: 5e239ee037eec4e4a8ceeb4f8f1bd902, type: 3}
   audioSource: {fileID: 1348697713}
-  audioSource2: {fileID: 1146914904}
   smoke: {fileID: 1031409777}
 --- !u!1 &1936934588
 GameObject:
