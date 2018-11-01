@@ -1,5 +1,7 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
-
-/.vs/ProjectLabirinth/v15/Server/sqlite3
+﻿.vs
+Library
+Temp
+*.csproj
+*.sln
+obj
+Packages
