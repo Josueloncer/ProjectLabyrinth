@@ -25,7 +25,7 @@ public class CerrarMapa : MonoBehaviour {
         {
             if (contador >= 8)
             {
-                if (Input.GetKey(KeyCode.G))
+                if (Input.GetKey(KeyCode.M))
                 {
                     mapa.SetActive(false);
                     contador = 0;
@@ -37,7 +37,7 @@ public class CerrarMapa : MonoBehaviour {
         {
             if (contador >= 8)
             {
-                if (Input.GetKey(KeyCode.G))
+                if (Input.GetKey(KeyCode.M))
                 {
                     mapa.SetActive(true);
                     contador = 0;

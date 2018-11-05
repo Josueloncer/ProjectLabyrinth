@@ -9,11 +9,13 @@ public class Movimiento : MonoBehaviour {
     public Animation anim;
     private bool left;
     private bool right;
+    public AudioSource audioSource;
+    public bool sonido = false;
 
 
     // Use this for initialization
-    
- 
+
+
     void Start()
     {
         left = true;
@@ -44,13 +46,59 @@ public class Movimiento : MonoBehaviour {
         charControl.SimpleMove(moveDirSide);
         charControl.SimpleMove(moveDirForward);
 
-        if(horiz < 0)
+
+        if (Input.GetKeyDown("w"))
+        {
+            sonido = false;
+        }
+        if (Input.GetKeyUp("w"))
+        {
+            sonido = true;
+        }
+
+        if (Input.GetKeyDown("a"))
+        {
+            sonido = false;
+        }
+        if (Input.GetKeyUp("a"))
+        {
+            sonido = true;
+        }
+
+        if (Input.GetKeyDown("s"))
+        {
+            sonido = false;
+        }
+        if (Input.GetKeyUp("s"))
+        {
+            sonido = true;
+        }
+
+        if (Input.GetKeyDown("d"))
+        {
+            sonido = false;
+        }
+        if (Input.GetKeyUp("d"))
+        {
+            sonido = true;
+        }
+
+
+        if (sonido == true)
+        {
+            audioSource.Play();
+        }
+        
+
+
+        if (horiz < 0)
         {
             //left = true;
             //right = false;
 
-                anim.Play("Movimiento_izquierdo");
-            Debug.Log("Izquierda");
+            anim.Play("Movimiento_izquierdo");
+            
+            // Debug.Log("Izquierda");
 
         }
 
@@ -60,7 +108,8 @@ public class Movimiento : MonoBehaviour {
             //right = false;
 
             anim.Play("Movimiento_Derecho");
-            Debug.Log("Derecha");
+            
+            //Debug.Log("Derecha");
 
         }
 
@@ -70,7 +119,8 @@ public class Movimiento : MonoBehaviour {
             //right = true;
 
                 anim.Play("Movimiento_Derecho");
-                Debug.Log("Adelante");
+           
+            // Debug.Log("Adelante");
 
         }
 
@@ -80,7 +130,8 @@ public class Movimiento : MonoBehaviour {
             //right = true;
 
             anim.Play("Movimiento_izquierdo");
-            Debug.Log("Atras");
+            
+            //Debug.Log("Atras");
 
         }
 

@@ -6,6 +6,7 @@ public class CambiarArma : MonoBehaviour
 {
     public GameObject arma;
     public GameObject linterna;
+    public GameObject cuchillo;
 
 	// Use this for initialization
 	void Start ()
@@ -20,10 +21,18 @@ public class CambiarArma : MonoBehaviour
         {
             linterna.SetActive(true);
             arma.SetActive(false);
+            cuchillo.SetActive(false);
         }
         if (Input.GetKey(KeyCode.Alpha2))
         {
             arma.SetActive(true);
+            linterna.SetActive(false);
+            cuchillo.SetActive(false);
+        }
+        if (Input.GetKey(KeyCode.Alpha3))
+        {
+            cuchillo.SetActive(true);
+            arma.SetActive(false);
             linterna.SetActive(false);
         }
 
