@@ -1,0 +1,447 @@
+fileFormatVersion: 2
+guid: 487254400146522449600413f90d4bc5
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Camera
+    100002: Camera.001
+    100004: Camera.002
+    100006: Camera.003
+    100008: Camera.004
+    100010: Guante
+    100012: Guante.001
+    100014: //RootNode
+    100016: Lamp
+    100018: Mano
+    100020: Mesh
+    100022: Mesh.001
+    100024: Texture Group
+    100026: Texture Group.001
+    100028: Texture Group.002
+    100030: Texture Group.003
+    400000: Camera
+    400002: Camera.001
+    400004: Camera.002
+    400006: Camera.003
+    400008: Camera.004
+    400010: Guante
+    400012: Guante.001
+    400014: //RootNode
+    400016: Lamp
+    400018: Mano
+    400020: Mesh
+    400022: Mesh.001
+    400024: Texture Group
+    400026: Texture Group.001
+    400028: Texture Group.002
+    400030: Texture Group.003
+    2000000: Camera
+    2000002: Camera.001
+    2000004: Camera.002
+    2000006: Camera.003
+    2000008: Camera.004
+    2100000: negro.004
+    2100002: gris.003
+    2100004: piel.003
+    2100006: gris.002
+    2100008: negro.002
+    2300000: Guante
+    2300002: Guante.001
+    2300004: Mano
+    2300006: Mesh
+    2300008: Mesh.001
+    3300000: Guante
+    3300002: Guante.001
+    3300004: Mano
+    3300006: Mesh
+    3300008: Mesh.001
+    4300000: Guante.001
+    4300002: Mesh.001
+    4300004: Mano
+    4300006: Mesh
+    4300008: Guante
+    7400000: Texture Group.003|Camera.001|Take 001|Layer 001
+    7400002: Texture Group.003|Camera.001|Take 001|Layer 001.001
+    7400004: Texture Group.003|Camera.002|Take 001|Layer 001
+    7400006: Texture Group.003|Camera.003|Take 001|Layer 001
+    7400008: Texture Group.003|Camera.004|Take 001|Layer 001
+    7400010: Texture Group.003|Guante.001|Take 001|Layer 001
+    7400012: Texture Group.003|Guante.001|Take 001|Layer 001.001
+    7400014: Texture Group.003|Guante|Take 001|Layer 001
+    7400016: Texture Group.003|Guante|Take 001|Layer 001.001
+    7400018: Texture Group.003|Guante|Take 001|Layer 001.002
+    7400020: Texture Group.003|Mano|Take 001|Layer 001
+    7400022: Texture Group.003|Mano|Take 001|Layer 001.001
+    7400024: Texture Group.003|Mano|Take 001|Layer 001.002
+    7400026: Texture Group.003|Mano|Take 001|Layer 001.003
+    7400028: Texture Group.003|Mesh.001|Take 001|Layer 001
+    7400030: Texture Group.003|Mesh|Take 001|Layer 001
+    7400032: Texture Group.003|Mesh|Take 001|Layer 001.001
+    7400034: Texture Group.003|Mesh|Take 001|Layer 001.002
+    7400036: Texture Group.003|Texture Group.001|Take 001|Layer 001
+    7400038: Texture Group.003|Texture Group.002|Take 001|Layer 001
+    7400040: Texture Group.003|Texture Group.003|Take 001|Layer 001
+    7400042: Texture Group.003|Texture Group|Take 001|Layer 001
+    7400044: Texture Group.003|Texture Group|Take 001|Layer 001.001
+    7400046: Camera.004|Camera.001|Take 001|Layer 001
+    7400048: Camera.004|Camera.001|Take 001|Layer 001.001
+    7400050: Camera.004|Camera.002|Take 001|Layer 001
+    7400052: Camera.004|Camera.003|Take 001|Layer 001
+    7400054: Camera.004|Camera.004|Take 001|Layer 001
+    7400056: Camera.004|Guante.001|Take 001|Layer 001
+    7400058: Camera.004|Guante.001|Take 001|Layer 001.001
+    7400060: Camera.004|Guante|Take 001|Layer 001
+    7400062: Camera.004|Guante|Take 001|Layer 001.001
+    7400064: Camera.004|Guante|Take 001|Layer 001.002
+    7400066: Camera.004|Mano|Take 001|Layer 001
+    7400068: Camera.004|Mano|Take 001|Layer 001.001
+    7400070: Camera.004|Mano|Take 001|Layer 001.002
+    7400072: Camera.004|Mano|Take 001|Layer 001.003
+    7400074: Camera.004|Mesh.001|Take 001|Layer 001
+    7400076: Camera.004|Mesh|Take 001|Layer 001
+    7400078: Camera.004|Mesh|Take 001|Layer 001.001
+    7400080: Camera.004|Mesh|Take 001|Layer 001.002
+    7400082: Camera.004|Texture Group.001|Take 001|Layer 001
+    7400084: Camera.004|Texture Group.002|Take 001|Layer 001
+    7400086: Camera.004|Texture Group.003|Take 001|Layer 001
+    7400088: Camera.004|Texture Group|Take 001|Layer 001
+    7400090: Camera.004|Texture Group|Take 001|Layer 001.001
+    7400092: Guante.001|Camera.001|Take 001|Layer 001
+    7400094: Guante.001|Camera.001|Take 001|Layer 001.001
+    7400096: Guante.001|Camera.002|Take 001|Layer 001
+    7400098: Guante.001|Camera.003|Take 001|Layer 001
+    7400100: Guante.001|Camera.004|Take 001|Layer 001
+    7400102: Guante.001|Guante.001|Take 001|Layer 001
+    7400104: Guante.001|Guante.001|Take 001|Layer 001.001
+    7400106: Guante.001|Guante|Take 001|Layer 001
+    7400108: Guante.001|Guante|Take 001|Layer 001.001
+    7400110: Guante.001|Guante|Take 001|Layer 001.002
+    7400112: Guante.001|Mano|Take 001|Layer 001
+    7400114: Guante.001|Mano|Take 001|Layer 001.001
+    7400116: Guante.001|Mano|Take 001|Layer 001.002
+    7400118: Guante.001|Mano|Take 001|Layer 001.003
+    7400120: Guante.001|Mesh.001|Take 001|Layer 001
+    7400122: Guante.001|Mesh|Take 001|Layer 001
+    7400124: Guante.001|Mesh|Take 001|Layer 001.001
+    7400126: Guante.001|Mesh|Take 001|Layer 001.002
+    7400128: Guante.001|Texture Group.001|Take 001|Layer 001
+    7400130: Guante.001|Texture Group.002|Take 001|Layer 001
+    7400132: Guante.001|Texture Group.003|Take 001|Layer 001
+    7400134: Guante.001|Texture Group|Take 001|Layer 001
+    7400136: Guante.001|Texture Group|Take 001|Layer 001.001
+    7400138: Texture Group.002|Camera.001|Take 001|Layer 001
+    7400140: Texture Group.002|Camera.001|Take 001|Layer 001.001
+    7400142: Texture Group.002|Camera.002|Take 001|Layer 001
+    7400144: Texture Group.002|Camera.003|Take 001|Layer 001
+    7400146: Texture Group.002|Camera.004|Take 001|Layer 001
+    7400148: Texture Group.002|Guante.001|Take 001|Layer 001
+    7400150: Texture Group.002|Guante.001|Take 001|Layer 001.001
+    7400152: Texture Group.002|Guante|Take 001|Layer 001
+    7400154: Texture Group.002|Guante|Take 001|Layer 001.001
+    7400156: Texture Group.002|Guante|Take 001|Layer 001.002
+    7400158: Texture Group.002|Mano|Take 001|Layer 001
+    7400160: Texture Group.002|Mano|Take 001|Layer 001.001
+    7400162: Texture Group.002|Mano|Take 001|Layer 001.002
+    7400164: Texture Group.002|Mano|Take 001|Layer 001.003
+    7400166: Texture Group.002|Mesh.001|Take 001|Layer 001
+    7400168: Texture Group.002|Mesh|Take 001|Layer 001
+    7400170: Texture Group.002|Mesh|Take 001|Layer 001.001
+    7400172: Texture Group.002|Mesh|Take 001|Layer 001.002
+    7400174: Texture Group.002|Texture Group.001|Take 001|Layer 001
+    7400176: Texture Group.002|Texture Group.002|Take 001|Layer 001
+    7400178: Texture Group.002|Texture Group.003|Take 001|Layer 001
+    7400180: Texture Group.002|Texture Group|Take 001|Layer 001
+    7400182: Texture Group.002|Texture Group|Take 001|Layer 001.001
+    7400184: Camera.003|Camera.001|Take 001|Layer 001
+    7400186: Camera.003|Camera.001|Take 001|Layer 001.001
+    7400188: Camera.003|Camera.002|Take 001|Layer 001
+    7400190: Camera.003|Camera.003|Take 001|Layer 001
+    7400192: Camera.003|Camera.004|Take 001|Layer 001
+    7400194: Camera.003|Guante.001|Take 001|Layer 001
+    7400196: Camera.003|Guante.001|Take 001|Layer 001.001
+    7400198: Camera.003|Guante|Take 001|Layer 001
+    7400200: Camera.003|Guante|Take 001|Layer 001.001
+    7400202: Camera.003|Guante|Take 001|Layer 001.002
+    7400204: Camera.003|Mano|Take 001|Layer 001
+    7400206: Camera.003|Mano|Take 001|Layer 001.001
+    7400208: Camera.003|Mano|Take 001|Layer 001.002
+    7400210: Camera.003|Mano|Take 001|Layer 001.003
+    7400212: Camera.003|Mesh.001|Take 001|Layer 001
+    7400214: Camera.003|Mesh|Take 001|Layer 001
+    7400216: Camera.003|Mesh|Take 001|Layer 001.001
+    7400218: Camera.003|Mesh|Take 001|Layer 001.002
+    7400220: Camera.003|Texture Group.001|Take 001|Layer 001
+    7400222: Camera.003|Texture Group.002|Take 001|Layer 001
+    7400224: Camera.003|Texture Group.003|Take 001|Layer 001
+    7400226: Camera.003|Texture Group|Take 001|Layer 001
+    7400228: Camera.003|Texture Group|Take 001|Layer 001.001
+    7400230: Mesh.001|Camera.001|Take 001|Layer 001
+    7400232: Mesh.001|Camera.001|Take 001|Layer 001.001
+    7400234: Mesh.001|Camera.002|Take 001|Layer 001
+    7400236: Mesh.001|Camera.003|Take 001|Layer 001
+    7400238: Mesh.001|Camera.004|Take 001|Layer 001
+    7400240: Mesh.001|Guante.001|Take 001|Layer 001
+    7400242: Mesh.001|Guante.001|Take 001|Layer 001.001
+    7400244: Mesh.001|Guante|Take 001|Layer 001
+    7400246: Mesh.001|Guante|Take 001|Layer 001.001
+    7400248: Mesh.001|Guante|Take 001|Layer 001.002
+    7400250: Mesh.001|Mano|Take 001|Layer 001
+    7400252: Mesh.001|Mano|Take 001|Layer 001.001
+    7400254: Mesh.001|Mano|Take 001|Layer 001.002
+    7400256: Mesh.001|Mano|Take 001|Layer 001.003
+    7400258: Mesh.001|Mesh.001|Take 001|Layer 001
+    7400260: Mesh.001|Mesh|Take 001|Layer 001
+    7400262: Mesh.001|Mesh|Take 001|Layer 001.001
+    7400264: Mesh.001|Mesh|Take 001|Layer 001.002
+    7400266: Mesh.001|Texture Group.001|Take 001|Layer 001
+    7400268: Mesh.001|Texture Group.002|Take 001|Layer 001
+    7400270: Mesh.001|Texture Group.003|Take 001|Layer 001
+    7400272: Mesh.001|Texture Group|Take 001|Layer 001
+    7400274: Mesh.001|Texture Group|Take 001|Layer 001.001
+    7400276: Mano|Camera.001|Take 001|Layer 001
+    7400278: Mano|Camera.001|Take 001|Layer 001.001
+    7400280: Mano|Camera.002|Take 001|Layer 001
+    7400282: Mano|Camera.003|Take 001|Layer 001
+    7400284: Mano|Camera.004|Take 001|Layer 001
+    7400286: Mano|Guante.001|Take 001|Layer 001
+    7400288: Mano|Guante.001|Take 001|Layer 001.001
+    7400290: Mano|Guante|Take 001|Layer 001
+    7400292: Mano|Guante|Take 001|Layer 001.001
+    7400294: Mano|Guante|Take 001|Layer 001.002
+    7400296: Mano|Mano|Take 001|Layer 001
+    7400298: Mano|Mano|Take 001|Layer 001.001
+    7400300: Mano|Mano|Take 001|Layer 001.002
+    7400302: Mano|Mano|Take 001|Layer 001.003
+    7400304: Mano|Mesh.001|Take 001|Layer 001
+    7400306: Mano|Mesh|Take 001|Layer 001
+    7400308: Mano|Mesh|Take 001|Layer 001.001
+    7400310: Mano|Mesh|Take 001|Layer 001.002
+    7400312: Mano|Texture Group.001|Take 001|Layer 001
+    7400314: Mano|Texture Group.002|Take 001|Layer 001
+    7400316: Mano|Texture Group.003|Take 001|Layer 001
+    7400318: Mano|Texture Group|Take 001|Layer 001
+    7400320: Mano|Texture Group|Take 001|Layer 001.001
+    7400322: Texture Group.001|Camera.001|Take 001|Layer 001
+    7400324: Texture Group.001|Camera.001|Take 001|Layer 001.001
+    7400326: Texture Group.001|Camera.002|Take 001|Layer 001
+    7400328: Texture Group.001|Camera.003|Take 001|Layer 001
+    7400330: Texture Group.001|Camera.004|Take 001|Layer 001
+    7400332: Texture Group.001|Guante.001|Take 001|Layer 001
+    7400334: Texture Group.001|Guante.001|Take 001|Layer 001.001
+    7400336: Texture Group.001|Guante|Take 001|Layer 001
+    7400338: Texture Group.001|Guante|Take 001|Layer 001.001
+    7400340: Texture Group.001|Guante|Take 001|Layer 001.002
+    7400342: Texture Group.001|Mano|Take 001|Layer 001
+    7400344: Texture Group.001|Mano|Take 001|Layer 001.001
+    7400346: Texture Group.001|Mano|Take 001|Layer 001.002
+    7400348: Texture Group.001|Mano|Take 001|Layer 001.003
+    7400350: Texture Group.001|Mesh.001|Take 001|Layer 001
+    7400352: Texture Group.001|Mesh|Take 001|Layer 001
+    7400354: Texture Group.001|Mesh|Take 001|Layer 001.001
+    7400356: Texture Group.001|Mesh|Take 001|Layer 001.002
+    7400358: Texture Group.001|Texture Group.001|Take 001|Layer 001
+    7400360: Texture Group.001|Texture Group.002|Take 001|Layer 001
+    7400362: Texture Group.001|Texture Group.003|Take 001|Layer 001
+    7400364: Texture Group.001|Texture Group|Take 001|Layer 001
+    7400366: Texture Group.001|Texture Group|Take 001|Layer 001.001
+    7400368: Camera.002|Camera.001|Take 001|Layer 001
+    7400370: Camera.002|Camera.001|Take 001|Layer 001.001
+    7400372: Camera.002|Camera.002|Take 001|Layer 001
+    7400374: Camera.002|Camera.003|Take 001|Layer 001
+    7400376: Camera.002|Camera.004|Take 001|Layer 001
+    7400378: Camera.002|Guante.001|Take 001|Layer 001
+    7400380: Camera.002|Guante.001|Take 001|Layer 001.001
+    7400382: Camera.002|Guante|Take 001|Layer 001
+    7400384: Camera.002|Guante|Take 001|Layer 001.001
+    7400386: Camera.002|Guante|Take 001|Layer 001.002
+    7400388: Camera.002|Mano|Take 001|Layer 001
+    7400390: Camera.002|Mano|Take 001|Layer 001.001
+    7400392: Camera.002|Mano|Take 001|Layer 001.002
+    7400394: Camera.002|Mano|Take 001|Layer 001.003
+    7400396: Camera.002|Mesh.001|Take 001|Layer 001
+    7400398: Camera.002|Mesh|Take 001|Layer 001
+    7400400: Camera.002|Mesh|Take 001|Layer 001.001
+    7400402: Camera.002|Mesh|Take 001|Layer 001.002
+    7400404: Camera.002|Texture Group.001|Take 001|Layer 001
+    7400406: Camera.002|Texture Group.002|Take 001|Layer 001
+    7400408: Camera.002|Texture Group.003|Take 001|Layer 001
+    7400410: Camera.002|Texture Group|Take 001|Layer 001
+    7400412: Camera.002|Texture Group|Take 001|Layer 001.001
+    7400414: Mesh|Camera.001|Take 001|Layer 001
+    7400416: Mesh|Camera.001|Take 001|Layer 001.001
+    7400418: Mesh|Camera.002|Take 001|Layer 001
+    7400420: Mesh|Camera.003|Take 001|Layer 001
+    7400422: Mesh|Camera.004|Take 001|Layer 001
+    7400424: Mesh|Guante.001|Take 001|Layer 001
+    7400426: Mesh|Guante.001|Take 001|Layer 001.001
+    7400428: Mesh|Guante|Take 001|Layer 001
+    7400430: Mesh|Guante|Take 001|Layer 001.001
+    7400432: Mesh|Guante|Take 001|Layer 001.002
+    7400434: Mesh|Mano|Take 001|Layer 001
+    7400436: Mesh|Mano|Take 001|Layer 001.001
+    7400438: Mesh|Mano|Take 001|Layer 001.002
+    7400440: Mesh|Mano|Take 001|Layer 001.003
+    7400442: Mesh|Mesh.001|Take 001|Layer 001
+    7400444: Mesh|Mesh|Take 001|Layer 001
+    7400446: Mesh|Mesh|Take 001|Layer 001.001
+    7400448: Mesh|Mesh|Take 001|Layer 001.002
+    7400450: Mesh|Texture Group.001|Take 001|Layer 001
+    7400452: Mesh|Texture Group.002|Take 001|Layer 001
+    7400454: Mesh|Texture Group.003|Take 001|Layer 001
+    7400456: Mesh|Texture Group|Take 001|Layer 001
+    7400458: Mesh|Texture Group|Take 001|Layer 001.001
+    7400460: Guante|Camera.001|Take 001|Layer 001
+    7400462: Guante|Camera.001|Take 001|Layer 001.001
+    7400464: Guante|Camera.002|Take 001|Layer 001
+    7400466: Guante|Camera.003|Take 001|Layer 001
+    7400468: Guante|Camera.004|Take 001|Layer 001
+    7400470: Guante|Guante.001|Take 001|Layer 001
+    7400472: Guante|Guante.001|Take 001|Layer 001.001
+    7400474: Guante|Guante|Take 001|Layer 001
+    7400476: Guante|Guante|Take 001|Layer 001.001
+    7400478: Guante|Guante|Take 001|Layer 001.002
+    7400480: Guante|Mano|Take 001|Layer 001
+    7400482: Guante|Mano|Take 001|Layer 001.001
+    7400484: Guante|Mano|Take 001|Layer 001.002
+    7400486: Guante|Mano|Take 001|Layer 001.003
+    7400488: Guante|Mesh.001|Take 001|Layer 001
+    7400490: Guante|Mesh|Take 001|Layer 001
+    7400492: Guante|Mesh|Take 001|Layer 001.001
+    7400494: Guante|Mesh|Take 001|Layer 001.002
+    7400496: Guante|Texture Group.001|Take 001|Layer 001
+    7400498: Guante|Texture Group.002|Take 001|Layer 001
+    7400500: Guante|Texture Group.003|Take 001|Layer 001
+    7400502: Guante|Texture Group|Take 001|Layer 001
+    7400504: Guante|Texture Group|Take 001|Layer 001.001
+    7400506: Texture Group|Camera.001|Take 001|Layer 001
+    7400508: Texture Group|Camera.001|Take 001|Layer 001.001
+    7400510: Texture Group|Camera.002|Take 001|Layer 001
+    7400512: Texture Group|Camera.003|Take 001|Layer 001
+    7400514: Texture Group|Camera.004|Take 001|Layer 001
+    7400516: Texture Group|Guante.001|Take 001|Layer 001
+    7400518: Texture Group|Guante.001|Take 001|Layer 001.001
+    7400520: Texture Group|Guante|Take 001|Layer 001
+    7400522: Texture Group|Guante|Take 001|Layer 001.001
+    7400524: Texture Group|Guante|Take 001|Layer 001.002
+    7400526: Texture Group|Mano|Take 001|Layer 001
+    7400528: Texture Group|Mano|Take 001|Layer 001.001
+    7400530: Texture Group|Mano|Take 001|Layer 001.002
+    7400532: Texture Group|Mano|Take 001|Layer 001.003
+    7400534: Texture Group|Mesh.001|Take 001|Layer 001
+    7400536: Texture Group|Mesh|Take 001|Layer 001
+    7400538: Texture Group|Mesh|Take 001|Layer 001.001
+    7400540: Texture Group|Mesh|Take 001|Layer 001.002
+    7400542: Texture Group|Texture Group.001|Take 001|Layer 001
+    7400544: Texture Group|Texture Group.002|Take 001|Layer 001
+    7400546: Texture Group|Texture Group.003|Take 001|Layer 001
+    7400548: Texture Group|Texture Group|Take 001|Layer 001
+    7400550: Texture Group|Texture Group|Take 001|Layer 001.001
+    7400552: Camera.001|Camera.001|Take 001|Layer 001
+    7400554: Camera.001|Camera.001|Take 001|Layer 001.001
+    7400556: Camera.001|Camera.002|Take 001|Layer 001
+    7400558: Camera.001|Camera.003|Take 001|Layer 001
+    7400560: Camera.001|Camera.004|Take 001|Layer 001
+    7400562: Camera.001|Guante.001|Take 001|Layer 001
+    7400564: Camera.001|Guante.001|Take 001|Layer 001.001
+    7400566: Camera.001|Guante|Take 001|Layer 001
+    7400568: Camera.001|Guante|Take 001|Layer 001.001
+    7400570: Camera.001|Guante|Take 001|Layer 001.002
+    7400572: Camera.001|Mano|Take 001|Layer 001
+    7400574: Camera.001|Mano|Take 001|Layer 001.001
+    7400576: Camera.001|Mano|Take 001|Layer 001.002
+    7400578: Camera.001|Mano|Take 001|Layer 001.003
+    7400580: Camera.001|Mesh.001|Take 001|Layer 001
+    7400582: Camera.001|Mesh|Take 001|Layer 001
+    7400584: Camera.001|Mesh|Take 001|Layer 001.001
+    7400586: Camera.001|Mesh|Take 001|Layer 001.002
+    7400588: Camera.001|Texture Group.001|Take 001|Layer 001
+    7400590: Camera.001|Texture Group.002|Take 001|Layer 001
+    7400592: Camera.001|Texture Group.003|Take 001|Layer 001
+    7400594: Camera.001|Texture Group|Take 001|Layer 001
+    7400596: Camera.001|Texture Group|Take 001|Layer 001.001
+    9500000: //RootNode
+    10800000: Lamp
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
