@@ -15,7 +15,7 @@ public class Cuchillo : MonoBehaviour {
     {
         if (Input.GetKey(KeyCode.Mouse0))
         {
-            anima.Play("Cortar");
+            anima.Play("Corte");
         }
 
     }
