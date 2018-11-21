@@ -3,12 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class BatterySpawn : MonoBehaviour {
-
-    [SerializeField]
-    [TextArea(8, 9)]
-    private string QueHacer = "Cuando arrastras el prefab de *Ecenario* a la escena haba 10 esferas, cada una de ellas ponlos en el espacio que dice *Pos 1, 2, 3 etc.*\nSon los lugares donde Spawnearan las pilas. Despues se puede desactivar el *Mesh Renderer* de las esferas.\nEn el aparrtado que dice pilla arrastrar el prefab de pila";
-
-
+    
     public GameObject Pila;
     public int PilasMaximas = 2;
     [Space(15)]
