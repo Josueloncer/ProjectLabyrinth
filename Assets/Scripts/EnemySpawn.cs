@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemySpawn : MonoBehaviour {
 
     public GameObject Enemigo;
-    public int EnemigosMaximas = 4;
+    public int EnemigosMaximas = 5;
     [Space(15)]
     int CrearNuevaEnemigo;
     public Transform Pos1;
@@ -44,14 +44,14 @@ public class EnemySpawn : MonoBehaviour {
 
         if (TotalDeEnemigos < EnemigosMaximas)
         {
-            LugarDeEnemigo();                                                  //SI HAY MENOS DE 2 EnemigoS 
+            LugarDeEnemigo();                                                  //SI HAY MENOS DE x EnemigoS 
         }
 
     }
 
     public void LugarDeEnemigo()
     {
-        CrearNuevaEnemigo = Random.Range(1, 11);
+        CrearNuevaEnemigo = Random.Range(1, 16);
 
         switch (CrearNuevaEnemigo)
         {

@@ -8,6 +8,14 @@ TagManager:
   - TagLight
   - win
   - Bala
+  - Enemigo
+  - Body
+  - Head
+  - Pila
+  - R_Sholder
+  - L_Sholder
+  - R_Leg
+  - L_Leg
   layers:
   - Default
   - TransparentFX

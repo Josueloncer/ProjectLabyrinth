@@ -24,11 +24,19 @@ public class Bala : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.LogFormat("{0} chocó con {1}", gameObject.name, other.gameObject.name);
+        //Debug.LogFormat("{0} chocó con {1}", gameObject.name, other.gameObject.name);
 
         // TODO Aquí se puede poner el código para mostrar la marca del disparo sobre la pared.
 
-        Destroy(gameObject); // TODO Aquí se destruye el objeto, pero lo mejor sería guardarlo en un pool para reutilizarlo.
+        if (other.tag == "R_Leg" || other.tag == "L_Leg" || other.tag == "R_Sholder" || other.tag == "L_Sholder" || other.tag == "Head" || other.tag == "Body")
+        {
+            //Destroy(this);
+        }
+
+
+
+
+        //Destroy(gameObject); // TODO Aquí se destruye el objeto, pero lo mejor sería guardarlo en un pool para reutilizarlo.
     }
 
     // Update is called once per frame
